@@ -22,7 +22,7 @@ set wildmenu
 " Show partial commands in the last line of the screen
 set showcmd
 
-" Highlight searches (use <C-L> to temporarily turn off highlighting
+" Highlight searches (use <C-L> to temporarily turn off highlighting)
 set hlsearch
 
 " When opening a new line and no filetype-specific indenting is enabled, keep
