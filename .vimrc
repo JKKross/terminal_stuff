@@ -22,7 +22,7 @@ set wildmenu
 " Show partial commands in the last line of the screen
 set showcmd
 
-" Highlight searches (use <C-L> to temporarily turn off highlighting; see the
+" Highlight searches (use <C-L> to temporarily turn off highlighting
 set hlsearch
 
 " When opening a new line and no filetype-specific indenting is enabled, keep
@@ -51,5 +51,7 @@ set number
 syntax on
 
 " My main machine is MacBook Pro with touchbar, hence:
-:map <Tab> <Esc>
-:imap <Tab> <Esc>
+:map jj <Esc>
+:imap jj <Esc>
+
+:imap <Tab> <Space><Space>
