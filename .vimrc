@@ -23,7 +23,6 @@ set wildmenu
 set showcmd
 
 " Highlight searches (use <C-L> to temporarily turn off highlighting; see the
-" mapping of <C-L> below)
 set hlsearch
 
 " When opening a new line and no filetype-specific indenting is enabled, keep
