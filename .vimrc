@@ -55,8 +55,8 @@ set encoding=utf8
 " (imap is for INSERT mode only)
 :imap jj <Esc>
 
-" Use two spaces instead of tab
-:imap <Tab> <Space><Space>
+" Use four spaces instead of tab
+:imap <Tab> <Space><Space><Space><Space>
 
 " Set ctrl+h/j/k/l to control split views, instead of default
 nnoremap <C-J> <C-W><C-J>
