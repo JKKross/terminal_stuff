@@ -50,6 +50,6 @@ set number
 " This kinda explains itself...
 syntax on
 
-" This too...
+" My main machine is MacBook Pro with touchbar, hence:
 :map <Tab> <Esc>
 :imap <Tab> <Esc>
