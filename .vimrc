@@ -18,7 +18,7 @@ filetype indent plugin on
 
 " Better command-line completion
 set wildmenu
- 
+
 " Show partial commands in the last line of the screen
 set showcmd
 
@@ -49,9 +49,25 @@ set number
 
 " This kinda explains itself...
 syntax on
+set encoding=utf8
 
 " My main machine is MacBook Pro with touchbar, hence:
 " (imap is for INSERT mode only)
 :imap jj <Esc>
 
+" Use two spaces instead of tab
 :imap <Tab> <Space><Space>
+
+" Set ctrl+h/j/k/l to control split views, instead of default
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Open splits on the bottom-right, instead of default bottom-left
+set splitbelow splitright
+
+" Auto-delete all trailing whitespace when saving
+autocmd BufWritePre * %s/\s\+$//e
+
+
