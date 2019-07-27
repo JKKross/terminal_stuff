@@ -51,7 +51,7 @@ set number
 syntax on
 
 " My main machine is MacBook Pro with touchbar, hence:
-:map jj <Esc>
+" (imap is for INSERT mode only)
 :imap jj <Esc>
 
 :imap <Tab> <Space><Space>
