@@ -65,7 +65,7 @@ highlight LineNr ctermfg=DarkRed
 :imap jj <Esc>
 
 " Use four spaces instead of tab
-:imap <Tab> <Space><Space><Space><Space>
+:imap <Tab> <Space><Space>
 
 " Set ctrl+h/j/k/l to control split views, instead of default
 nnoremap <C-J> <C-W><C-J>
