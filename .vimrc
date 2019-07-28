@@ -1,3 +1,4 @@
+"
 " Just my .vimrc
 " Used with Vim 8.0
 "
