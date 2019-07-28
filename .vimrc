@@ -1,4 +1,3 @@
-"
 " Just my .vimrc
 " Used with Vim 8.0
 "
@@ -50,6 +49,15 @@ set number
 " This kinda explains itself...
 syntax on
 set encoding=utf8
+
+" Syntax highlighting setup
+set background=dark
+colorscheme default
+" 'ctermfg' stands for 'color terminal foreground'
+" (There's also 'ctermbg')
+highlight Comment ctermfg=Gray
+highlight Normal ctermfg=White
+highlight LineNr ctermfg=DarkRed
 
 " My main machine is MacBook Pro with touchbar, hence:
 " (imap is for INSERT mode only)
