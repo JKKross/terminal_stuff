@@ -45,7 +45,7 @@ set confirm
 set cmdheight=2
 
 " Display line numbers on the left
-set number
+set number relativenumber
 
 " This kinda explains itself...
 syntax on
@@ -55,10 +55,11 @@ set encoding=utf8
 set background=dark
 colorscheme default
 " 'ctermfg' stands for 'color terminal foreground'
-" (There's also 'ctermbg')
+" (There's also 'ctermbg' option)
 highlight Comment ctermfg=Gray
 highlight Normal ctermfg=White
 highlight LineNr ctermfg=DarkRed
+set cursorline
 
 " My main machine is MacBook Pro with touchbar, hence:
 " (imap is for INSERT mode only)
