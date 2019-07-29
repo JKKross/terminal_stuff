@@ -80,4 +80,6 @@ set splitbelow splitright
 " Auto-delete all trailing whitespace when saving
 autocmd BufWritePre * %s/\s\+$//e
 
-
+" Tells vim to look multiple folders deep when
+" using :find or autocompleting
+set path+=**
