@@ -3,6 +3,7 @@
 " Used with Vim 8.0
 "
 " Mostly stolen from 'https://vim.fandom.com/wiki/Example_vimrc'
+" Also checkout "How to Do 90% of What Plugins Do (With Just Vim)" - 'https://www.youtube.com/watch?v=XA2WjJbmmoM'
 "
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -65,7 +66,7 @@ set cursorline
 " (imap is for INSERT mode only)
 :imap jj <Esc>
 
-" Use spaces instead of tab
+" Use four spaces instead of tab
 :imap <Tab> <Space><Space>
 
 " Set ctrl+h/j/k/l to control split views, instead of default
@@ -83,3 +84,7 @@ autocmd BufWritePre * %s/\s\+$//e
 " Tells vim to look multiple folders deep when
 " using :find or autocompleting
 set path+=**
+
+" Configure netrw to open folders in a tree
+let g:netrw_liststyle=3
+
