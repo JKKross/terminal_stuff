@@ -65,7 +65,7 @@ set cursorline
 " (imap is for INSERT mode only)
 :imap jj <Esc>
 
-" Use four spaces instead of tab
+" Use spaces instead of tab
 :imap <Tab> <Space><Space>
 
 " Set ctrl+h/j/k/l to control split views, instead of default
