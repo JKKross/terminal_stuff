@@ -7,9 +7,11 @@ export PATH="$PATH:$HOME/.scripts"
 export EDITOR="vim"
 
 alias c="clear"
+alias l="ls"
 alias g="git"
 alias v="vim"
 alias p="cd ~/Documents/Programming/"
+alias ups="update_script"
 alias starwars="telnet towel.blinkenlights.nl"
 # always colorize output
 alias tree="tree -C"
