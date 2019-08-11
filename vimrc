@@ -1,4 +1,3 @@
-"
 " Just my .vimrc
 " Used with Vim 8.0
 "
@@ -11,11 +10,6 @@
 " Set 'nocompatible' to ward off unexpected things that your distro might
 " have made, as well as sanely reset options when re-sourcing .vimrc
 set nocompatible
-
-" Attempt to determine the type of a file based on its name and possibly its
-" contents. Use this to allow intelligent auto-indenting for each filetype,
-" and for plugins that are filetype specific.
-filetype indent plugin on
 
 " Better command-line completion
 set wildmenu
@@ -87,4 +81,3 @@ set path+=**
 
 " Configure netrw to open folders in a tree
 let g:netrw_liststyle=3
-
