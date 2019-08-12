@@ -6,6 +6,7 @@ export PATH="$PATH:$HOME/.scripts"
 
 export EDITOR="vim"
 
+alias please="sudo" # just for fun...
 alias c="clear"
 alias l="ls"
 alias g="git"
