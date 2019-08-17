@@ -5,6 +5,8 @@
 export PATH="$PATH:$HOME/.scripts"
 
 export EDITOR="vim"
+# vi mode!
+set -o vi
 
 alias please="sudo" # just for fun...
 alias c="clear"
