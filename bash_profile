@@ -1,6 +1,9 @@
 #
 # My Settings:
 
+# Shorter prompt with some colors, delete for default
+PS1="\e[0;33m[\e[0;31m\u\e[0;33m]\e[0;34m\$ \e[0;0m"
+
 # Set path for scripts
 export PATH="$PATH:$HOME/.scripts"
 
