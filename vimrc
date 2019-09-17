@@ -61,13 +61,15 @@ set cursorline
 :imap jj <Esc>
 
 " Use four spaces instead of tab
-:imap <Tab> <Space><Space>
+:imap <Tab> <Space><Space><Space><Space>
 
 " Set ctrl+h/j/k/l to control split views, instead of default
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+nnoremap <Space> $
 
 " Open splits on the bottom-right, instead of default bottom-left
 set splitbelow splitright
