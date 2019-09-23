@@ -8,8 +8,6 @@ PS1="\e[0;33m[\e[0;31m\u\e[0;33m]\e[0;32m[\e[0;31m\W\e[0;32m]\e[0;34m\$ \e[0;0m"
 export PATH="$PATH:$HOME/.scripts"
 
 export EDITOR="vim"
-# vi mode!
-set -o vi
 
 alias please="sudo" # just for fun...
 alias c="clear"
