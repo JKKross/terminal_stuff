@@ -15,6 +15,7 @@ alias l="ls"
 alias g="git"
 alias v="vim"
 alias p="cd ~/Documents/Programming/"
+alias ddd="rm -rf ~/Library/Developer/Xcode/DerivedData"
 
 # This looks terrible - but it works...
 alias ups="update_script; echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~; echo about to git pull in swift_source/; cd ~/Documents/Programming/swift_source/; git pull; echo git pull finished, changing to home folder; cd ~"
