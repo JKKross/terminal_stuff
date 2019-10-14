@@ -2,6 +2,7 @@
 PS1=$'\e[0;33m[\e[0;31m\%n\e[0;33m]\e[0;32m[\e[0;31m\%1~\e[0;32m]\e[0;34m\$ \e[0;0m'
 
 export PATH=~/.scripts/:$PATH
+export PATH=$HOME/.cargo/bin:$PATH
 export EDITOR=vim
 
 alias please="sudo" # just for fun...
@@ -13,7 +14,7 @@ alias p="cd ~/Documents/Programming/"
 alias ddd="echo deleting derived data...; rm -rf ~/Library/Developer/Xcode/DerivedData"
 
 # This looks terrible - but it works...
-alias ups="update_script; echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~; echo about to git pull in swift_source/; cd ~/Documents/Programming/swift_source/; git pull; echo git pull finished, changing to home folder; cd ~"
+alias ups="update_script; echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~; echo about to git pull in swift-driver/; cd ~/Documents/Programming/swift_projects/swift-driver; git pull; echo git pull finished; echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~; echo about to git pull in swift_source/; cd ~/Documents/Programming/swift_projects/swift_source/; git pull; echo git pull finished, changing to home folder; cd ~"
 
 alias starwars="telnet towel.blinkenlights.nl"
 # always colorize output
