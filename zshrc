@@ -17,6 +17,7 @@ alias ddd="echo deleting derived data...; rm -rf ~/Library/Developer/Xcode/Deriv
 alias ups="update_script; echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~; echo about to git pull in swift-driver/; cd ~/Documents/Programming/swift_projects/swift-driver; git pull; echo git pull finished; echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~; echo about to git pull in swift_source/; cd ~/Documents/Programming/swift_projects/swift_source/; git pull; echo git pull finished, changing to home folder; cd ~"
 
 alias starwars="telnet towel.blinkenlights.nl"
+alias matrix="cmatrix"
 # always colorize output
 alias tree="tree -C"
 # colorize
