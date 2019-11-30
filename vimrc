@@ -1,5 +1,4 @@
 " Just my .vimrc
-" Used with Vim 8.0
 "
 " Mostly stolen from 'https://vim.fandom.com/wiki/Example_vimrc'
 " Also checkout "How to Do 90% of What Plugins Do (With Just Vim)" - 'https://www.youtube.com/watch?v=XA2WjJbmmoM'
@@ -69,7 +68,10 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" $ and 0 are hard to reach on my keyboard layout
 nnoremap <Space> $
+nnoremap <Tab> 0
+
 
 " Open splits on the bottom-right, instead of default bottom-left
 set splitbelow splitright
