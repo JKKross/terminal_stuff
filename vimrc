@@ -53,7 +53,6 @@ colorscheme default
 highlight Comment ctermfg=Gray
 highlight Normal ctermfg=White
 highlight LineNr ctermfg=DarkRed
-set cursorline
 
 " My main machine is MacBook Pro with touchbar, hence:
 " (imap is for INSERT mode only)
@@ -72,6 +71,10 @@ nnoremap <C-H> <C-W><C-H>
 nnoremap <Space> $
 nnoremap <Tab> 0
 
+" auto-comment line
+nnoremap <C-\> 0i// <Esc>
+" auto-uncomment line
+nnoremap <C-y> 03x<Esc>
 
 " Open splits on the bottom-right, instead of default bottom-left
 set splitbelow splitright
