@@ -6,9 +6,13 @@
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-" Set 'nocompatible' to ward off unexpected things that your distro might
-" have made, as well as sanely reset options when re-sourcing .vimrc
+" Welcome to 21st century. By default, Vim tries to be 'compatible' with Vi.
 set nocompatible
+
+" This kinda explains itself...
+syntax on
+filetype indent plugin on
+set encoding=utf8
 
 " Better command-line completion
 set wildmenu
@@ -16,7 +20,7 @@ set wildmenu
 " Show partial commands in the last line of the screen
 set showcmd
 
-" Highlight searches (use <C-L> to temporarily turn off highlighting)
+" Highlight searches (use :nohl to temporarily turn off highlighting)
 set hlsearch
 
 " When opening a new line and no filetype-specific indenting is enabled, keep
@@ -40,10 +44,6 @@ set cmdheight=2
 
 " Display line numbers on the left
 set number relativenumber
-
-" This kinda explains itself...
-syntax on
-set encoding=utf8
 
 " Syntax highlighting setup
 set background=dark
