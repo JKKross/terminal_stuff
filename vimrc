@@ -58,9 +58,6 @@ highlight LineNr ctermfg=DarkRed
 " (imap is for INSERT mode only)
 :imap jj <Esc>
 
-" Use four spaces instead of tab
-:imap <Tab> <Space><Space><Space><Space>
-
 " Set ctrl+h/j/k/l to control split views, instead of default
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
