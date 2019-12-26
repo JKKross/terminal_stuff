@@ -1,7 +1,5 @@
 # terminal_stuff
 
-.vimrc & .bash_profile
-
 Pretty self-explanatory, I'd say...
 
 # "License"
