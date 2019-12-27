@@ -90,3 +90,9 @@ set path+=**
 " Configure netrw to open folders in a tree
 let g:netrw_liststyle=3
 
+" Vim-plug section
+call plug#begin('~/.vim/plugged')
+
+Plug 'keith/swift.vim'
+
+call plug#end()
