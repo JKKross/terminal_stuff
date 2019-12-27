@@ -58,6 +58,10 @@ highlight LineNr ctermfg=DarkRed
 " (imap is for INSERT mode only)
 :imap jj <Esc>
 
+" indent & unindent (with spaces, default uses tab)
+nnoremap > 0i<Tab><Esc>$
+nnoremap < 0x
+
 " Set ctrl+h/j/k/l to control split views, instead of default
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -85,3 +89,4 @@ set path+=**
 
 " Configure netrw to open folders in a tree
 let g:netrw_liststyle=3
+
