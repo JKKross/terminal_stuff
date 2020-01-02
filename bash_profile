@@ -17,7 +17,6 @@ alias v="vim"
 alias p="cd ~/Documents/Programming/"
 alias ddd="rm -rf ~/Library/Developer/Xcode/DerivedData"
 
-# This looks terrible - but it works...
 alias ups="update_script"
 
 alias starwars="telnet towel.blinkenlights.nl"
