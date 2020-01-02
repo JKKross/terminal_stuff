@@ -14,7 +14,7 @@ alias p="cd ~/Documents/Programming/"
 alias ddd="echo deleting derived data...; rm -rf ~/Library/Developer/Xcode/DerivedData"
 
 # This looks terrible - but it works...
-alias ups="update_script"
+alias ups="update_script; echo  ; echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~;echo git pull in swift; echo  ; cd ~/Documents/Programming/swift/; git pull; cd ~/"
 
 alias starwars="telnet towel.blinkenlights.nl"
 alias matrix="cmatrix"
