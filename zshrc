@@ -1,5 +1,5 @@
 # Custom prompt
-PS1=$'\e[0;33m[\e[0;31m\%n\e[0;33m]\e[0;32m[\e[0;31m\%1~\e[0;32m]\e[0;34m\$ \e[0;0m'
+PS1=$'\e[0;31m\%n \e[0;32m\%1~ \e[0;36m\♫ \e[0;0m'
 
 export PATH=~/.scripts/:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
