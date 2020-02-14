@@ -53,6 +53,7 @@ colorscheme default
 highlight Comment ctermfg=Gray
 highlight Normal ctermfg=White
 highlight LineNr ctermfg=DarkRed
+highlight Search ctermfg=Green ctermbg=DarkRed
 
 " My main machine is MacBook Pro with touchbar, hence:
 " (imap is for INSERT mode only)
