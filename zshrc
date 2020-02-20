@@ -1,5 +1,5 @@
 # Custom prompt
-PS1=$'\e[0;31m\%n \e[0;32m\%1~ \e[0;36m\♫ \e[0;0m'
+PS1=$'\e[0;31m\%n\e[0;37m\:\e[0;32m\%1~ \e[0;36m\♫ \e[0;0m'
 
 export PATH=~/.scripts/:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
@@ -20,6 +20,7 @@ alias starwars="telnet towel.blinkenlights.nl"
 alias matrix="cmatrix"
 # always colorize output
 alias tree="tree -C"
+alias t="tree -C"
 # colorize
 alias ls="ls -G"
 # Highlight searched word, case insensitive, line numbers
