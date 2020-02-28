@@ -22,6 +22,10 @@ set showcmd
 
 " Highlight searches (use :nohl to temporarily turn off highlighting)
 set hlsearch
+" If search is all lowercase, ignore case. If there are capitalized letters
+" included in the search, do a case sensitive search.
+set ignorecase
+set smartcase
 
 " When opening a new line and no filetype-specific indenting is enabled, keep
 " the same indent as the line you're currently on. Useful for READMEs, etc.
