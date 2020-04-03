@@ -88,6 +88,9 @@ nnoremap <C-\> 0i// <Esc>
 " auto-uncomment line
 nnoremap <C-y> 03x<Esc>
 
+" add swift func documentation template
+nnoremap :doc<Return> 0i/**<Return><Tab>DESCRIPTION<Return><Return>- Parameter NAME:<Return><Return>- Throws:<Return><Return>- Returns:<Return>*/<Esc>0x7kw
+
 " Open splits on the bottom-right, instead of default bottom-left
 set splitbelow splitright
 
