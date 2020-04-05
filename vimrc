@@ -79,6 +79,12 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" Set + & - to set the width of the current window in vertical split
+nnoremap + :vertical resize +5<Return>
+nnoremap - :vertical resize -5<Return>
+" Set = to go back to default size
+nnoremap = <C-W>=
+
 " $ and 0 are hard to reach on my keyboard layout
 nnoremap <Space> $
 nnoremap <Tab> 0
