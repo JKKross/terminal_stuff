@@ -1,5 +1,5 @@
 # Custom prompt
-PS1=$'\e[0;31m\%n\e[0;37m\:\e[0;32m\%~\n\e[0;37m\𝄢 \e[0;0m'
+PS1=$'\e[0;32m\%n\e[0;30m\:\e[0;31m\%~\n\e[0;30m\𝄢 \e[0;0m'
 
 export PATH=~/.scripts/:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
@@ -14,7 +14,7 @@ alias p="cd ~/Documents/Programming/"
 alias ddd="echo deleting derived data...; rm -rf ~/Library/Developer/Xcode/DerivedData"
 
 # This looks terrible - but it works...
-alias ups="update_script; echo  ; echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~; echo git pull in swift; echo  ; cd ~/Documents/Programming/foss_clones/swift/; git pull; cd ~/"
+alias ups="echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~; echo Running rustup update; rustup update; update_script; echo  ; echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~; echo git pull in swift; echo  ; cd ~/Documents/Programming/foss/swift/; git pull; cd ~/"
 
 alias starwars="telnet towel.blinkenlights.nl"
 alias matrix="cmatrix"
