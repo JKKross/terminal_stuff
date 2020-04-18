@@ -1,15 +1,49 @@
+"
+"           ________ ++     ________
+"          /VVVVVVVV\++++  /VVVVVVVV\
+"          \VVVVVVVV/++++++\VVVVVVVV/
+"           |VVVVVV|++++++++/VVVVV/'
+"           |VVVVVV|++++++/VVVVV/'
+"          +|VVVVVV|++++/VVVVV/'+
+"        +++|VVVVVV|++/VVVVV/'+++++
+"      +++++|VVVVVV|/VVV___++++++++++
+"        +++|VVVVVVVVVV/##/ +_+_+_+_
+"          +|VVVVVVVVV___ +/#_#,#_#,\
+"           |VVVVVVV//##/+/#/+/#/'/#/
+"           |VVVVV/'+/#/+/#/+/#/ /#/
+"           |VVV/'++/#/+/#/ /#/ /#/
+"           'V/'  /##//##//##//###/
+"
+"
 " Just my .vimrc
 "
-" Mostly stolen from 'https://vim.fandom.com/wiki/Example_vimrc'
-" Also checkout "How to Do 90% of What Plugins Do (With Just Vim)" - 'https://www.youtube.com/watch?v=XA2WjJbmmoM'
+" Checkout "How to Do 90% of What Plugins Do (With Just Vim)" - 'https://www.youtube.com/watch?v=XA2WjJbmmoM'
 "
-"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"     PLUGINS
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+" Vim-plug section
+call plug#begin('~/.vim/plugged')
+
+Plug 'keith/swift.vim'
+Plug 'rust-lang/rust.vim'
+
+call plug#end()
+
+
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"     EDITOR/TEXT INPUT CUSTOMIZATION
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 " Welcome to the 21st century. By default, Vim tries to be 'compatible' with Vi.
 set nocompatible
 
 " This kinda explains itself...
 filetype plugin on
+filetype indent off
 syntax on
 set encoding=utf8
 
@@ -25,9 +59,6 @@ set hlsearch
 " included in the search, do a case sensitive search.
 set ignorecase
 set smartcase
-
-" When opening a new line and no filetype-specific indenting is enabled, keep
-" the same indent as the line you're currently on. Useful for READMEs, etc.
 
 " Display the cursor position on the last line of the screen or in the status
 " line of a window
@@ -47,15 +78,32 @@ set cmdheight=2
 " Set tab to look like 3 spaces:
 set tabstop=3
 
-" Display line numbers on the left
+" Display relative line numbers
 set number relativenumber
 
-" Syntax highlighting setup
+" Open splits on the bottom-right, instead of default bottom-left
+set splitbelow splitright
+
+" Auto-delete all trailing whitespace right before save is executed
+autocmd BufWritePre * %s/\s\+$//e
+
+" Tells vim to look multiple folders deep when
+" using :find or autocompleting
+set path+=**
+
+" Configure netrw to open folders in a tree
+let g:netrw_liststyle=3
+
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"     COLORS
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 colorscheme default
 " 'ctermfg' stands for 'color terminal foreground'
 " (There's also 'ctermbg' option)
 
-" :help group-name for more info
+" These are syntax highlighting settings
+" (:help group-name for more info)
 highlight Comment    ctermfg=DarkGreen
 highlight Constant   ctermfg=Black
 highlight Identifier ctermfg=Black
@@ -66,7 +114,7 @@ highlight Special    ctermfg=Black
 highlight Underlined ctermfg=Black
 highlight String     ctermfg=DarkRed
 highlight Character  ctermfg=DarkRed
-
+" Now other stuff
 highlight Normal ctermfg=Black
 highlight LineNr ctermfg=DarkGray
 highlight Search ctermfg=White    ctermbg=DarkRed
@@ -75,11 +123,14 @@ set cursorline
 highlight CursorLine   ctermfg=Black ctermbg=White
 highlight CursorLineNr ctermfg=White ctermbg=Black
 
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"     REMAPS
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 " reasign leader key
 let mapleader = ","
 
 " My main machine is MacBook Pro with touchbar, hence:
-" (imap is for INSERT mode only)
 :imap jj <Esc>
 :imap kk <Esc>
 :imap jk <Esc>
@@ -106,30 +157,13 @@ nnoremap = <C-W>=
 nnoremap <Space> $
 nnoremap <Tab> 0
 
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"     CODE SNIPPETS/TEMPLATES
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 " auto-comment line
 nnoremap \ 0i// <Esc>
 " auto-uncomment line
 nnoremap <C-\> 03x<Esc>
-
-" add swift func documentation template
+" Swift func documentation template
 nnoremap :doc<Return> 0i/**<Return><Tab>DESCRIPTION<Return><Return>- Parameter NAME:<Return><Return>- Throws:<Return><Return>- Returns:<Return>*/<Esc>0x7kw
-
-" Open splits on the bottom-right, instead of default bottom-left
-set splitbelow splitright
-
-" Auto-delete all trailing whitespace right before save is executed
-autocmd BufWritePre * %s/\s\+$//e
-
-" Tells vim to look multiple folders deep when
-" using :find or autocompleting
-set path+=**
-
-" Configure netrw to open folders in a tree
-let g:netrw_liststyle=3
-
-" Vim-plug section
-call plug#begin('~/.vim/plugged')
-
-Plug 'keith/swift.vim'
-
-call plug#end()
