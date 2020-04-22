@@ -13,9 +13,8 @@ alias v="vim"
 alias p="cd ~/Documents/Programming/"
 alias ddd="echo deleting derived data...; rm -rf ~/Library/Developer/Xcode/DerivedData"
 
-# This looks terrible - but it works...
 # ("ups" for "UPdate Script")
-alias ups="echo RUNNING rustup update; rustup update; echo RUNNING brew update+upgrade+cask upgrade; brew update; brew upgrade; brew cask upgrade; echo RUNNING git pull in /swift; cd ~/Documents/Programming/foss/swift/; cd ~/;"
+alias ups="sh update_script.sh"
 
 alias starwars="telnet towel.blinkenlights.nl"
 alias matrix="cmatrix"
