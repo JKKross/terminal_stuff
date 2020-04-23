@@ -128,7 +128,7 @@ highlight CursorLineNr ctermfg=White ctermbg=Black
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 " reasign leader key
-let mapleader = ","
+let mapleader = " "
 
 " My main machine is MacBook Pro with touchbar, hence:
 :imap jj <Esc>
@@ -146,16 +146,16 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " Set + & - to set the width of the current window in vertical split
-nnoremap + :vertical  resize +5<Return>
-nnoremap - :vertical  resize -5<Return>
+nnoremap +            :vertical resize +5<Return>
+nnoremap -            :vertical resize -5<Return>
 nnoremap <Leader>+    :resize +5<Return>
 nnoremap <Leader>-    :resize -5<Return>
 " Set = to go back to default size
 nnoremap = <C-W>=
 
 " $ and 0 are hard to reach on my keyboard layout
-nnoremap <Space> $
-nnoremap <Tab> 0
+nnoremap H 0
+nnoremap L $
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     CODE SNIPPETS/TEMPLATES
@@ -165,5 +165,8 @@ nnoremap <Tab> 0
 nnoremap \ 0i// <Esc>
 " auto-uncomment line
 nnoremap <C-\> 03x<Esc>
-" Swift func documentation template
-nnoremap :doc<Return> 0i/**<Return><Tab>DESCRIPTION<Return><Return>- Parameter NAME:<Return><Return>- Throws:<Return><Return>- Returns:<Return>*/<Esc>0x7kw
+
+"			*** SWIFT ***
+
+" func documentation template
+autocmd Filetype swift nnoremap :doc<Return> 0i/**<Return><Tab>DESCRIPTION<Return><Return>- Parameter NAME:<Return><Return>- Throws:<Return><Return>- Returns:<Return>*/<Esc>0x7kw
