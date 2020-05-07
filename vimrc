@@ -22,19 +22,6 @@
 
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-"     PLUGINS
-" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-" Vim-plug section
-call plug#begin('~/.vim/plugged')
-
-Plug 'keith/swift.vim'
-Plug 'rust-lang/rust.vim'
-
-call plug#end()
-
-
-" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     EDITOR/TEXT INPUT CUSTOMIZATION
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -42,7 +29,7 @@ call plug#end()
 set nocompatible
 
 " This kinda explains itself...
-filetype plugin on
+filetype plugin off
 filetype indent off
 syntax on
 set encoding=utf8
