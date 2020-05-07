@@ -10,11 +10,13 @@ alias c="clear"
 alias l="ls"
 alias g="git"
 alias v="vim"
-alias p="cd ~/Documents/Programming/"
+alias p="cd ~/Programming/"
 alias ddd="echo deleting derived data...; rm -rf ~/Library/Developer/Xcode/DerivedData"
 
 # ("ups" for "UPdate Script")
 alias ups="sh update_script.sh"
+
+alias server="python3 -m http.server"
 
 alias starwars="telnet towel.blinkenlights.nl"
 alias matrix="cmatrix"
