@@ -24,6 +24,5 @@ alias matrix="cmatrix"
 alias tree="tree -C"
 # colorize
 alias ls="ls -G"
-# Highlight searched word, case insensitive, line numbers
-alias grep="grep --colour=auto -in"
 alias new="new_source_file"
+alias loc="tokei"
