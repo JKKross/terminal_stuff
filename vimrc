@@ -157,3 +157,4 @@ nnoremap <C-\> 03x<Esc>
 
 " func documentation template
 autocmd Filetype swift nnoremap :doc<Return> 0i/**<Return><Tab>DESCRIPTION<Return><Return>- Parameter NAME:<Return><Return>- Throws:<Return><Return>- Returns:<Return>*/<Esc>0x7kw
+
