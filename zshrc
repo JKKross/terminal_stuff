@@ -9,7 +9,7 @@ alias please="sudo"
 alias c="clear"
 alias l="ls"
 alias g="git"
-alias v="vim"
+alias v="gvim"
 alias p="cd ~/Programming/"
 alias ddd="echo deleting derived data...; rm -rf ~/Library/Developer/Xcode/DerivedData"
 

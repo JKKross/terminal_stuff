@@ -91,24 +91,49 @@ colorscheme default
 
 " These are syntax highlighting settings
 " (:help group-name for more info)
-highlight Comment    ctermfg=DarkGreen
-highlight Constant   ctermfg=Black
-highlight Identifier ctermfg=Black
-highlight Statement  ctermfg=Black
-highlight PreProc    ctermfg=Black
-highlight Type       ctermfg=Black
-highlight Special    ctermfg=Black
-highlight Underlined ctermfg=Black
-highlight String     ctermfg=DarkRed
-highlight Character  ctermfg=DarkRed
-" Now other stuff
-highlight Normal ctermfg=Black
-highlight LineNr ctermfg=DarkGray
-highlight Search ctermfg=White    ctermbg=DarkRed
+highlight Comment      ctermfg=DarkGreen
+highlight Constant     ctermfg=Black
+highlight Identifier   ctermfg=Black
+highlight Statement    ctermfg=Black
+highlight PreProc      ctermfg=Black
+highlight Type         ctermfg=Black
+highlight Special      ctermfg=Black
+highlight Underlined   ctermfg=Black
+highlight String       ctermfg=DarkRed
+highlight Character    ctermfg=DarkRed
+
+highlight Normal       ctermfg=Black
+highlight LineNr       ctermfg=DarkGray
+highlight Search       ctermfg=White ctermbg=DarkRed
 
 set cursorline
 highlight CursorLine   ctermfg=Black ctermbg=White
 highlight CursorLineNr ctermfg=White ctermbg=Black
+
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"     GUI
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+set guifont=Menlo:h14
+
+highlight Comment      guifg=DarkGreen
+highlight Constant     guifg=Black
+highlight Identifier   guifg=Black
+highlight Statement    guifg=Black
+highlight PreProc      guifg=Black
+highlight Type         guifg=Black
+highlight Special      guifg=Black
+highlight Underlined   guifg=Black
+highlight String       guifg=DarkRed
+highlight Character    guifg=DarkRed
+
+highlight Normal       guifg=Black
+highlight LineNr       guifg=DarkGray
+highlight Search       guifg=White guibg=DarkRed
+
+highlight CursorLine   guifg=Black guibg=White
+highlight CursorLineNr guifg=White guibg=Black
+
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     REMAPS
