@@ -62,8 +62,8 @@ set confirm
 " 'press <Enter> to continue'
 set cmdheight=2
 
-" Set tab to look like 3 spaces:
-set tabstop=3
+" Set tab to look like 4 spaces:
+set tabstop=4
 
 " Display relative line numbers
 set number relativenumber
