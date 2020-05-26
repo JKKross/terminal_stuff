@@ -10,7 +10,7 @@ alias c="clear"
 alias l="ls"
 alias g="git"
 alias v="gvim"
-alias p="cd ~/Programming/"
+alias p="cd ~/programming/"
 alias ddd="echo deleting derived data...; rm -rf ~/Library/Developer/Xcode/DerivedData"
 
 # ("ups" for "UPdate Script")
