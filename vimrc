@@ -111,31 +111,6 @@ highlight CursorLine   ctermfg=Black ctermbg=White
 highlight CursorLineNr ctermfg=White ctermbg=Black
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-"     GUI
-" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-set guifont=Menlo:h14
-
-highlight Comment      guifg=DarkGreen
-highlight Constant     guifg=Black
-highlight Identifier   guifg=Black
-highlight Statement    guifg=Black
-highlight PreProc      guifg=Black
-highlight Type         guifg=Black
-highlight Special      guifg=Black
-highlight Underlined   guifg=Black
-highlight String       guifg=DarkRed
-highlight Character    guifg=DarkRed
-
-highlight Normal       guifg=Black
-highlight LineNr       guifg=DarkGray
-highlight Search       guifg=White guibg=DarkRed
-
-highlight CursorLine   guifg=Black guibg=White
-highlight CursorLineNr guifg=White guibg=Black
-
-
-" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     REMAPS
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
