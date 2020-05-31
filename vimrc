@@ -92,23 +92,23 @@ colorscheme default
 " These are syntax highlighting settings
 " (:help group-name for more info)
 highlight Comment      ctermfg=DarkGreen
-highlight Constant     ctermfg=Black
-highlight Identifier   ctermfg=Black
-highlight Statement    ctermfg=Black
-highlight PreProc      ctermfg=Black
-highlight Type         ctermfg=Black
-highlight Special      ctermfg=Black
-highlight Underlined   ctermfg=Black
-highlight String       ctermfg=DarkRed
-highlight Character    ctermfg=DarkRed
+highlight Constant     ctermfg=White
+highlight Identifier   ctermfg=White
+highlight Statement    ctermfg=White
+highlight PreProc      ctermfg=White
+highlight Type         ctermfg=White
+highlight Special      ctermfg=White
+highlight Underlined   ctermfg=White
+highlight String       ctermfg=Red
+highlight Character    ctermfg=Red
 
-highlight Normal       ctermfg=Black
+highlight Normal       ctermfg=White
 highlight LineNr       ctermfg=DarkGray
 highlight Search       ctermfg=White ctermbg=DarkRed
 
 set cursorline
 highlight CursorLine   ctermfg=Black ctermbg=White
-highlight CursorLineNr ctermfg=White ctermbg=Black
+highlight CursorLineNr ctermfg=White ctermbg=DarkGray
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     REMAPS
