@@ -62,9 +62,6 @@ set confirm
 " 'press <Enter> to continue'
 set cmdheight=2
 
-" Set tab to look like 4 spaces:
-set tabstop=4
-
 " Display relative line numbers
 set number relativenumber
 
@@ -113,6 +110,8 @@ highlight CursorLineNr ctermfg=White ctermbg=DarkGray
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     REMAPS
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+inoremap <Tab> <Space><Space><Space><Space>
 
 " reasign leader key
 let mapleader = " "
