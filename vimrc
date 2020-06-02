@@ -20,6 +20,13 @@
 " Checkout "How to Do 90% of What Plugins Do (With Just Vim)" - 'https://www.youtube.com/watch?v=XA2WjJbmmoM'
 "
 
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"     PLUGINS
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+call plug#begin()
+Plug 'keith/swift.vim'
+call plug#end()
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     EDITOR/TEXT INPUT CUSTOMIZATION
@@ -89,13 +96,6 @@ colorscheme default
 " These are syntax highlighting settings
 " (:help group-name for more info)
 highlight Comment      ctermfg=DarkGreen
-highlight Constant     ctermfg=White
-highlight Identifier   ctermfg=White
-highlight Statement    ctermfg=White
-highlight PreProc      ctermfg=White
-highlight Type         ctermfg=White
-highlight Special      ctermfg=White
-highlight Underlined   ctermfg=White
 highlight String       ctermfg=Red
 highlight Character    ctermfg=Red
 
