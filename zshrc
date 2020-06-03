@@ -17,4 +17,3 @@ alias ups="sh update_script.sh"
 # always colorize output
 alias tree="tree -C"
 alias new="new_source_file"
-alias tab="tab_formatter"

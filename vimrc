@@ -106,6 +106,8 @@ highlight Search       ctermfg=White ctermbg=DarkRed
 set cursorline
 highlight CursorLine   ctermfg=Black ctermbg=White
 highlight CursorLineNr ctermfg=White ctermbg=DarkGray
+highlight StatusLine   ctermfg=Blue
+highlight StatusLineNC ctermfg=Gray
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     REMAPS
@@ -123,7 +125,7 @@ let mapleader = " "
 
 " indent & unindent
 nnoremap > 0i<Tab><Esc>$
-nnoremap < 0x
+nnoremap < 04x
 
 " Set ctrl+h/j/k/l to control split views, instead of default
 nnoremap <C-J> <C-W><C-J>

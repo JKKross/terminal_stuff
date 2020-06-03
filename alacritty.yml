@@ -18,8 +18,8 @@ window:
   # Specified in number of columns/lines, not pixels.
   # If both are `0`, this setting is ignored.
   dimensions:
-    columns: 150
-    lines: 48
+    columns: 80
+    lines: 30
 
   # Window position (changes require restart)
   #
@@ -174,7 +174,7 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#151515'
+    background: '#202020'
     foreground: '#EEEEEE'
 
     # Bright and dim foreground colors
@@ -208,7 +208,7 @@ colors:
     red:     '#B02010'
     green:   '#30B020'
     yellow:  '#B0B030'
-    blue:    '#0060F0'
+    blue:    '#0070F0'
     magenta: '#C000C0'
     cyan:    '#00F0FF'
     white:   '#EEEEEE'
@@ -219,7 +219,7 @@ colors:
     red:     '#E02010'
     green:   '#30E020'
     yellow:  '#F0F030'
-    blue:    '#0080FF'
+    blue:    '#0090FF'
     magenta: '#F000FF'
     cyan:    '#00F0FF'
     white:   '#EEEEEE'
