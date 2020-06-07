@@ -104,8 +104,8 @@ highlight LineNr       ctermfg=DarkGray
 highlight Search       ctermfg=White ctermbg=DarkRed
 
 set cursorline
-highlight CursorLine   ctermfg=Black ctermbg=White
-highlight CursorLineNr ctermfg=White ctermbg=DarkGray
+highlight CursorLine   ctermfg=Black ctermbg=Blue
+highlight CursorLineNr ctermfg=White ctermbg=DarkMagenta
 highlight StatusLine   ctermfg=Blue
 highlight StatusLineNC ctermfg=Gray
 
@@ -157,5 +157,5 @@ nnoremap <C-\> 03x<Esc>
 "			*** SWIFT ***
 
 " func documentation template
-autocmd Filetype swift nnoremap :doc<Return> 0i/**<Return><Tab>DESCRIPTION<Return><Return>- Parameter NAME:<Return><Return>- Throws:<Return><Return>- Returns:<Return>*/<Esc>0x7kw
+autocmd Filetype swift nnoremap :doc<Return> 0i///<Tab>DESCRIPTION<Return>///<Return>/// - Parameter NAME:<Return>///<Return>/// - Throws:<Return>///<Return>/// - Returns: <Esc>0x7kw
 
