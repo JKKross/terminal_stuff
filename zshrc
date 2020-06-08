@@ -6,8 +6,8 @@ export PATH=$HOME/.cargo/bin:$PATH
 export EDITOR=vim
 
 alias c="clear"
-# colorize
-alias l="ls -G"
+# colorize & human readable
+alias l="ls -Gh"
 alias g="git"
 alias v="vim"
 alias p="cd ~/programming/"

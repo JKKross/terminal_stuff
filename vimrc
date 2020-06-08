@@ -69,9 +69,6 @@ set confirm
 " 'press <Enter> to continue'
 set cmdheight=2
 
-" Display relative line numbers
-set number relativenumber
-
 " Open splits on the bottom-right, instead of default bottom-left
 set splitbelow splitright
 
@@ -100,12 +97,10 @@ highlight String       ctermfg=Red
 highlight Character    ctermfg=Red
 
 highlight Normal       ctermfg=White
-highlight LineNr       ctermfg=DarkGray
 highlight Search       ctermfg=White ctermbg=DarkRed
 
 set cursorline
 highlight CursorLine   ctermfg=Black ctermbg=Blue
-highlight CursorLineNr ctermfg=White ctermbg=DarkMagenta
 highlight StatusLine   ctermfg=Blue
 highlight StatusLineNC ctermfg=Gray
 
