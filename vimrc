@@ -82,6 +82,8 @@ set path+=**
 " Configure netrw to open folders in a tree
 let g:netrw_liststyle=3
 
+set number relativenumber
+
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     COLORS
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -93,8 +95,8 @@ colorscheme default
 " These are syntax highlighting settings
 " (:help group-name for more info)
 highlight Comment      ctermfg=DarkGreen
-highlight String       ctermfg=Red
-highlight Character    ctermfg=Red
+highlight String       ctermfg=DarkYellow
+highlight Character    ctermfg=DarkYellow
 
 highlight Normal       ctermfg=White
 highlight Search       ctermfg=White ctermbg=DarkRed
@@ -103,6 +105,9 @@ set cursorline
 highlight CursorLine   ctermfg=Black ctermbg=Blue
 highlight StatusLine   ctermfg=Blue
 highlight StatusLineNC ctermfg=Gray
+highlight CursorLine   ctermfg=Black ctermbg=Blue
+highlight LineNr       ctermfg=Gray
+highlight CursorLineNr ctermfg=White ctermbg=DarkMagenta
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     REMAPS

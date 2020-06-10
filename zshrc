@@ -6,15 +6,14 @@ export PATH=$HOME/.cargo/bin:$PATH
 export EDITOR=vim
 
 alias c="clear"
-# colorize & human readable
-alias l="ls -Gh"
+# list, colorize & human readable
+alias l="ls -lGh"
 alias g="git"
 alias v="vim"
-alias p="cd ~/programming/"
 alias ddd="echo deleting derived data...; rm -rf ~/Library/Developer/Xcode/DerivedData"
-# ("ups" for "UPdate Script")
+# ("ups" stands for "UPdate Script")
 alias ups="sh update_script.sh"
-# always colorize output
+# colorize
 alias tree="tree -C"
 alias new="new_source_file"
 alias dirs="dirs -v"
