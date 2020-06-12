@@ -21,14 +21,6 @@
 "
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-"     PLUGINS
-" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-call plug#begin()
-Plug 'keith/swift.vim'
-call plug#end()
-
-" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     EDITOR/TEXT INPUT CUSTOMIZATION
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -95,19 +87,24 @@ colorscheme default
 " These are syntax highlighting settings
 " (:help group-name for more info)
 highlight Comment      ctermfg=DarkGreen
-highlight String       ctermfg=DarkYellow
-highlight Character    ctermfg=DarkYellow
+highlight Constant     ctermfg=White
+highlight Identifier   ctermfg=White
+highlight Statement    ctermfg=White
+highlight PreProc      ctermfg=White
+highlight Type         ctermfg=White
+highlight Special      ctermfg=White
+highlight String       ctermfg=DarkRed
+highlight Character    ctermfg=DarkRed
 
 highlight Normal       ctermfg=White
-highlight Search       ctermfg=White ctermbg=DarkRed
+highlight Search       ctermfg=White ctermbg=Red
 
 set cursorline
-highlight CursorLine   ctermfg=Black ctermbg=Blue
+highlight CursorLine   ctermfg=Black ctermbg=White
 highlight StatusLine   ctermfg=Blue
 highlight StatusLineNC ctermfg=Gray
-highlight CursorLine   ctermfg=Black ctermbg=Blue
 highlight LineNr       ctermfg=Gray
-highlight CursorLineNr ctermfg=White ctermbg=DarkMagenta
+highlight CursorLineNr ctermfg=Black ctermbg=White
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     REMAPS

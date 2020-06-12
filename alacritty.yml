@@ -174,7 +174,7 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#200018'
+    background: '#202020'
     foreground: '#EEEEEE'
 
     # Bright and dim foreground colors
@@ -191,7 +191,7 @@ colors:
   # the cursor color will be the inverse of the cell color.
   cursor:
     text: '#000000'
-    cursor: '#FF60FF'
+    cursor: '#33FF00'
 
   # Selection colors
   #
@@ -206,10 +206,10 @@ colors:
   normal:
     black:   '#000000'
     red:     '#B02010'
-    green:   '#30B020'
-    yellow:  '#B0B030'
+    green:   '#20A010'
+    yellow:  '#D0B000'
     blue:    '#0070F0'
-    magenta: '#C000C0'
+    magenta: '#C000B0'
     cyan:    '#00F0FF'
     white:   '#EEEEEE'
 
@@ -218,7 +218,7 @@ colors:
     black:   '#000000'
     red:     '#E02010'
     green:   '#30E020'
-    yellow:  '#F0F030'
+    yellow:  '#F0D020'
     blue:    '#0090FF'
     magenta: '#F000FF'
     cyan:    '#00F0FF'
@@ -278,7 +278,7 @@ visual_bell:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.95
+background_opacity: 1.0
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
@@ -296,7 +296,7 @@ cursor:
   #   - ▇ Block
   #   - _ Underline
   #   - | Beam
-  style: Beam
+  style: Block
 
   # If this is `true`, the cursor will be rendered as a hollow box when the
   # window is not focused.
