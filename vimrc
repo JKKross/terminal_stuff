@@ -93,15 +93,15 @@ highlight Statement    ctermfg=White
 highlight PreProc      ctermfg=White
 highlight Type         ctermfg=White
 highlight Special      ctermfg=White
-highlight String       ctermfg=DarkRed
-highlight Character    ctermfg=DarkRed
+highlight String       ctermfg=DarkYellow
+highlight Character    ctermfg=DarkYellow
 
 highlight Normal       ctermfg=White
 highlight Search       ctermfg=White ctermbg=Red
 
 set cursorline
 highlight CursorLine   ctermfg=Black ctermbg=White
-highlight StatusLine   ctermfg=Blue
+highlight StatusLine   ctermfg=DarkGreen
 highlight StatusLineNC ctermfg=Gray
 highlight LineNr       ctermfg=Gray
 highlight CursorLineNr ctermfg=Black ctermbg=White
@@ -156,6 +156,9 @@ nnoremap \ 0i// <Esc>
 nnoremap <C-\> 03x<Esc>
 
 "			*** SWIFT ***
+
+" simple syntax highlight
+autocmd BufEnter *.swift :setlocal filetype=c
 
 " func documentation template
 autocmd Filetype swift nnoremap :doc<Return> 0i///<Tab>DESCRIPTION<Return>///<Return>/// - Parameter NAME:<Return>///<Return>/// - Throws:<Return>///<Return>/// - Returns: <Esc>0x7kw
