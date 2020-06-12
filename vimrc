@@ -141,6 +141,10 @@ nnoremap <Leader>-    :resize -5<Return>
 " Set = to go back to default size
 nnoremap = <C-W>=
 
+" Jump to bottom of the screen
+nnoremap J L
+" Jump to top of the screen
+nnoremap K H
 " $ and 0 are hard to reach on my keyboard layout
 nnoremap H 0
 nnoremap L $
