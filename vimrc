@@ -101,10 +101,10 @@ highlight Search       ctermfg=White ctermbg=Red
 
 set cursorline
 highlight CursorLine   ctermfg=Black ctermbg=White
-highlight StatusLine   ctermfg=DarkGreen
+highlight CursorLineNr ctermfg=Green ctermbg=Black
+highlight StatusLine   ctermfg=Yellow
 highlight StatusLineNC ctermfg=Gray
 highlight LineNr       ctermfg=Gray
-highlight CursorLineNr ctermfg=Black ctermbg=White
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     REMAPS
