@@ -155,7 +155,7 @@ nnoremap \ 0i// <Esc>
 " auto-uncomment line
 nnoremap <C-\> 03x<Esc>
 
-"			*** SWIFT ***
+"        *** SWIFT ***
 
 " simple syntax highlight
 autocmd BufEnter *.swift :setlocal filetype=c
