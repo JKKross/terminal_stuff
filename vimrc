@@ -15,16 +15,18 @@
 "           'V/'  /##//##//##//###/
 "
 "
-" Just my .vimrc
 "
-" Checkout "How to Do 90% of What Plugins Do (With Just Vim)" - 'https://www.youtube.com/watch?v=XA2WjJbmmoM'
+"
+" Checkout "How to Do 90% of What Plugins Do (With Just Vim)" for explanations:
+" https://www.youtube.com/watch?v=XA2WjJbmmoM
 "
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     EDITOR/TEXT INPUT CUSTOMIZATION
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-" Welcome to the 21st century. By default, Vim tries to be 'compatible' with Vi.
+" Welcome to the 21st century.
+" By default, Vim tries to be 'compatible' with Vi.
 set nocompatible
 
 " This kinda explains itself...
