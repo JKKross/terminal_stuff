@@ -123,7 +123,7 @@ let mapleader = " "
 :imap jk <Esc>
 
 " indent & unindent
-nnoremap > 0i<Tab><Esc>$
+nnoremap > 0i<Space><Space><Space><Space><Esc>$
 nnoremap < 04x
 
 " Set ctrl+h/j/k/l to control split views, instead of default
@@ -163,5 +163,7 @@ nnoremap <C-\> 03x<Esc>
 autocmd BufEnter *.swift :setlocal filetype=c
 
 " func documentation template
-autocmd Filetype swift nnoremap :doc<Return> 0i///<Tab>DESCRIPTION<Return>///<Return>/// - Parameter NAME:<Return>///<Return>/// - Throws:<Return>///<Return>/// - Returns: <Esc>0x7kw
+autocmd BufEnter *.swift nnoremap :doc<Return> 0i///<Tab>DESCRIPTION<Return>///<Return>/// - Parameter NAME:<Return>///<Return>/// - Throws:<Return>///<Return>/// - Returns: <Esc>0x7kw
 
+" The most important one
+autocmd BufEnter *.swift nnoremap :tamic<Return> A.translatesAutoresizingMaskIntoConstraints = false
