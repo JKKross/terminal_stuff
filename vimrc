@@ -166,4 +166,4 @@ autocmd BufEnter *.swift :setlocal filetype=c
 autocmd BufEnter *.swift nnoremap :doc<Return> 0i///<Tab>DESCRIPTION<Return>///<Return>/// - Parameter NAME:<Return>///<Return>/// - Throws:<Return>///<Return>/// - Returns: <Esc>0x7kw
 
 " The most important one
-autocmd BufEnter *.swift nnoremap :tamic<Return> A.translatesAutoresizingMaskIntoConstraints = false
+autocmd BufEnter *.swift nnoremap :tamic<Return> AtranslatesAutoresizingMaskIntoConstraints = false

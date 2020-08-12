@@ -14,6 +14,6 @@ alias ddd="echo deleting derived data...; rm -rf ~/Library/Developer/Xcode/Deriv
 # ("ups" stands for "UPdate Script")
 alias ups="sh update_script.sh"
 # colorize
-alias tree="tree -C"
+alias tr="tree -C"
 alias new="new_source_file"
 alias dirs="dirs -v"
