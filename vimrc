@@ -102,9 +102,8 @@ highlight Normal       ctermfg=White
 highlight Search       ctermfg=White ctermbg=Red
 
 set cursorline
-highlight CursorLine   ctermfg=Black ctermbg=White
 highlight CursorLineNr ctermfg=Green ctermbg=Black
-highlight StatusLine   ctermfg=Yellow
+highlight StatusLine   ctermfg=Blue
 highlight StatusLineNC ctermfg=Gray
 highlight LineNr       ctermfg=Gray
 
