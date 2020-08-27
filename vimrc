@@ -88,16 +88,6 @@ colorscheme default
 
 " These are syntax highlighting settings
 " (:help group-name for more info)
-highlight Comment      ctermfg=DarkGreen
-highlight Constant     ctermfg=White
-highlight Identifier   ctermfg=White
-highlight Statement    ctermfg=White
-highlight PreProc      ctermfg=White
-highlight Type         ctermfg=White
-highlight Special      ctermfg=White
-highlight String       ctermfg=DarkYellow
-highlight Character    ctermfg=DarkYellow
-
 highlight Normal       ctermfg=White
 highlight Search       ctermfg=White ctermbg=Red
 
