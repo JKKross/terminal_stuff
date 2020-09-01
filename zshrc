@@ -1,9 +1,10 @@
 # Custom prompt
 PS1=$'\e[32m\%n\e[0m\:\e[33m\%~\n\e[0m\𝄢 '
 
-export PATH=~/.scripts/:$PATH
+export PATH=$HOME/.scripts_and_programs/:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 export EDITOR=vim
+export TERMINAL=alacritty
 
 alias c="clear"
 # list, colorize & human readable
