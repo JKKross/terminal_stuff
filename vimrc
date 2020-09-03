@@ -24,9 +24,6 @@
 "     EDITOR/TEXT INPUT CUSTOMIZATION
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-inoremap <Tab> <Space><Space><Space><Space>
-"set tabstop=4
-
 " Welcome to the 21st century.
 " By default, Vim tries to be 'compatible' with Vi.
 set nocompatible
@@ -111,9 +108,13 @@ let mapleader = " "
 :imap kk <Esc>
 :imap jk <Esc>
 
-" indent & unindent
+" Indentation
+inoremap <Tab> <Space><Space><Space><Space>
 nnoremap > 0i<Space><Space><Space><Space><Esc>$
 nnoremap < 04x
+
+"nnoremap > 0i<Tab><Esc>$
+"nnoremap < 0x
 
 " Set ctrl+h/j/k/l to control split views, instead of default
 nnoremap <C-J> <C-W><C-J>
@@ -150,9 +151,6 @@ nnoremap <C-\> 03x<Esc>
 
 " simple syntax highlight
 autocmd BufEnter *.swift :setlocal filetype=c
-
-" func documentation template
-autocmd BufEnter *.swift nnoremap :doc<Return> 0i///<Tab>DESCRIPTION<Return>///<Return>/// - Parameter NAME:<Return>///<Return>/// - Throws:<Return>///<Return>/// - Returns: <Esc>0x7kw
 
 " The most important one
 autocmd BufEnter *.swift nnoremap :tamic<Return> AtranslatesAutoresizingMaskIntoConstraints = false
