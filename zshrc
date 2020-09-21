@@ -8,7 +8,7 @@ export TERMINAL=alacritty
 
 alias c="clear"
 # list, colorize & human readable
-alias l="ls -lGh"
+alias l="ls -Gh"
 alias g="git"
 alias v="vim"
 alias ddd="echo deleting derived data...; rm -rf ~/Library/Developer/Xcode/DerivedData"

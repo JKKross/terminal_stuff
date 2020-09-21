@@ -21,6 +21,14 @@
 " https://www.youtube.com/watch?v=XA2WjJbmmoM
 "
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"     PLUGINS
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+call plug#begin('~/.vim/plugged')
+Plug 'keith/swift.vim'
+call plug#end()
+
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     EDITOR/TEXT INPUT CUSTOMIZATION
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -106,16 +114,11 @@ let mapleader = " "
 
 " My main machine is MacBook Pro with touchbar, hence:
 :imap jj <Esc>
-:imap kk <Esc>
-:imap jk <Esc>
 
 " Indentation
 inoremap <Tab> <Space><Space><Space><Space>
 nnoremap > 0i<Space><Space><Space><Space><Esc>$
 nnoremap < 04x
-
-"nnoremap > 0i<Tab><Esc>$
-"nnoremap < 0x
 
 " Set ctrl+h/j/k/l to control split views, instead of default
 nnoremap <C-J> <C-W><C-J>
@@ -149,9 +152,6 @@ nnoremap \ 0i// <Esc>
 nnoremap <C-\> 03x<Esc>
 
 "        *** SWIFT ***
-
-" simple syntax highlight
-autocmd BufEnter *.swift :setlocal filetype=c
 
 " The most important one
 autocmd BufEnter *.swift nnoremap :tamic<Return> AtranslatesAutoresizingMaskIntoConstraints = false
