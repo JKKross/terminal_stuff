@@ -98,9 +98,6 @@ colorscheme default
 highlight Normal       ctermfg=White
 highlight Search       ctermfg=White ctermbg=Red
 
-set cursorline
-highlight CursorLineNr ctermfg=Green ctermbg=Black
-highlight CursorLine   ctermbg=Black
 highlight StatusLine   ctermfg=Blue
 highlight StatusLineNC ctermfg=Gray
 highlight LineNr       ctermfg=Gray
