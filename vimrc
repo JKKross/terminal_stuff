@@ -83,7 +83,7 @@ set path+=**
 " Configure netrw to open folders in a tree
 let g:netrw_liststyle=3
 
-set number relativenumber
+set relativenumber
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     COLORS
