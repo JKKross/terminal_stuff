@@ -21,14 +21,6 @@
 " https://www.youtube.com/watch?v=XA2WjJbmmoM
 "
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-"     PLUGINS
-" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-call plug#begin('~/.vim/plugged')
-Plug 'keith/swift.vim'
-call plug#end()
-
-" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     EDITOR/TEXT INPUT CUSTOMIZATION
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -83,8 +75,6 @@ set path+=**
 " Configure netrw to open folders in a tree
 let g:netrw_liststyle=3
 
-set relativenumber
-
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     COLORS
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -95,12 +85,21 @@ colorscheme default
 
 " These are syntax highlighting settings
 " (:help group-name for more info)
+highlight Comment      ctermfg=Blue
+highlight Constant     ctermfg=White
+highlight Identifier   ctermfg=White
+highlight Statement    ctermfg=White
+highlight PreProc      ctermfg=White
+highlight Type         ctermfg=White
+highlight Special      ctermfg=White
+highlight String       ctermfg=DarkGreen
+highlight Character    ctermfg=DarkGreen
+
 highlight Normal       ctermfg=White
 highlight Search       ctermfg=White ctermbg=Red
 
 highlight StatusLine   ctermfg=Blue
 highlight StatusLineNC ctermfg=Gray
-highlight LineNr       ctermfg=Gray
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     REMAPS
@@ -148,7 +147,15 @@ nnoremap \ 0i// <Esc>
 " auto-uncomment line
 nnoremap <C-\> 03x<Esc>
 
+"        *** JAI ***
+
+" simple syntax highlight
+autocmd BufEnter *.jai :setlocal filetype=c
+
 "        *** SWIFT ***
+
+" simple syntax highlight
+autocmd BufEnter *.swift :setlocal filetype=c
 
 " The most important one
 autocmd BufEnter *.swift nnoremap :tamic<Return> AtranslatesAutoresizingMaskIntoConstraints = false
