@@ -271,7 +271,7 @@ colors:
 # Specifying a `duration` of `0` will disable the visual bell.
 bell:
   animation: Linear
-  duration: 100
+  duration: 10
   color: '#ffffff'
 
 # Background opacity
