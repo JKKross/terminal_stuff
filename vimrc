@@ -159,3 +159,8 @@ autocmd BufEnter *.swift :setlocal filetype=c
 
 " The most important one
 autocmd BufEnter *.swift nnoremap :tamic<Return> AtranslatesAutoresizingMaskIntoConstraints = false
+
+
+"        *** HTML ***
+
+autocmd BufEnter *.html nnoremap :link<Return> A<a href="" target="_blank"></a><Esc>bblli
