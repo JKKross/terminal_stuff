@@ -76,10 +76,17 @@ set path+=**
 let g:netrw_liststyle=3
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"    GUI (Windows)
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+colorscheme desert
+set guifont=Consolas:h10
+set backspace=2
+
+" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     COLORS
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-colorscheme default
 " 'ctermfg' stands for 'color terminal foreground'
 " (There's also 'ctermbg' option)
 
@@ -109,7 +116,7 @@ highlight StatusLineNC ctermfg=Gray
 let mapleader = " "
 
 " My main machine is MacBook Pro with touchbar, hence:
-:imap jj <Esc>
+imap jj <Esc>
 
 " Indentation
 inoremap <Tab> <Space><Space><Space><Space>
@@ -164,3 +171,4 @@ autocmd BufEnter *.swift nnoremap :tamic<Return> AtranslatesAutoresizingMaskInto
 "        *** HTML ***
 
 autocmd BufEnter *.html nnoremap :link<Return> A<a href="" target="_blank"></a><Esc>bblli
+
