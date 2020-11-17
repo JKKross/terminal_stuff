@@ -119,9 +119,8 @@ let mapleader = " "
 imap jj <Esc>
 
 " Indentation
-inoremap <Tab> <Space><Space><Space><Space>
-nnoremap > 0i<Space><Space><Space><Space><Esc>$
-nnoremap < 04x
+nnoremap > 0i<Tab><Esc>$
+nnoremap < 0x
 
 " Set ctrl+h/j/k/l to control split views, instead of default
 nnoremap <C-J> <C-W><C-J>
