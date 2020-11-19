@@ -92,21 +92,21 @@ set backspace=2
 
 " These are syntax highlighting settings
 " (:help group-name for more info)
-highlight Comment      ctermfg=Blue
-highlight Constant     ctermfg=White
-highlight Identifier   ctermfg=White
-highlight Statement    ctermfg=White
-highlight PreProc      ctermfg=White
-highlight Type         ctermfg=White
-highlight Special      ctermfg=White
+highlight Comment      ctermfg=DarkBlue
+highlight Constant     ctermfg=Black
+highlight Identifier   ctermfg=Black
+highlight Statement    ctermfg=Black
+highlight PreProc      ctermfg=Black
+highlight Type         ctermfg=Black
+highlight Special      ctermfg=Black
 highlight String       ctermfg=DarkGreen
 highlight Character    ctermfg=DarkGreen
 
-highlight Normal       ctermfg=White
-highlight Search       ctermfg=White ctermbg=Red
+highlight Normal       ctermfg=Black
+highlight Search       ctermfg=Black ctermbg=DarkRed
 
-highlight StatusLine   ctermfg=Blue
-highlight StatusLineNC ctermfg=Gray
+highlight StatusLine   ctermfg=DarkBlue
+highlight StatusLineNC ctermfg=DarkGray
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     REMAPS

@@ -1,5 +1,5 @@
 # Custom prompt
-PS1=$'\e[32m\%n\e[0m\:\e[33m\%~\n\e[0m\𝄢 '
+PS1=$'\e[33m\%n\e[0m\:\e[32m\%~\n\e[0m\𝄢 '
 
 export PATH=$HOME/.scripts_and_programs/:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
