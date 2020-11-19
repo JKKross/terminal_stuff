@@ -105,7 +105,7 @@ highlight Character    ctermfg=DarkGreen
 highlight Normal       ctermfg=Black
 highlight Search       ctermfg=Black ctermbg=DarkRed
 
-highlight StatusLine   ctermfg=DarkBlue
+highlight StatusLine   ctermfg=DarkMagenta
 highlight StatusLineNC ctermfg=DarkGray
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
