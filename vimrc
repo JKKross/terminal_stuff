@@ -79,7 +79,7 @@ let g:netrw_liststyle=3
 "    GUI (Windows)
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-colorscheme desert
+colorscheme morning
 set guifont=Consolas:h10
 set backspace=2
 
