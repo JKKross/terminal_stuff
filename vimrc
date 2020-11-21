@@ -87,6 +87,9 @@ set backspace=2
 "     COLORS
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+" Underscore the line you're on
+
+set cursorline
 " 'ctermfg' stands for 'color terminal foreground'
 " (There's also 'ctermbg' option)
 
