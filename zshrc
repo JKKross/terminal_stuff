@@ -22,3 +22,6 @@ alias weather="curl 'wttr.in?1nF'"
 alias tr="tree -C"
 alias new="new_source_file"
 alias ctags="`brew --prefix`/bin/ctags"
+
+# update website
+alias wdd="rsync -r ~/programming/my_projects/web/whiskey_driven_development/ root@whiskeydriven.dev:/var/www/whiskey_driven_development/"
