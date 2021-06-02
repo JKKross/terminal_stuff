@@ -16,7 +16,6 @@ alias dirs="dirs -v"
 alias ddd="echo deleting derived data...; rm -rf ~/Library/Developer/Xcode/DerivedData"
 # ("ups" stands for "UPdate Script")
 alias ups="sh update_script.sh"
-alias weather="curl 'wttr.in?1nF'"
 # colorize
 alias tr="tree -C"
 alias new="new_source_file"

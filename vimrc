@@ -76,14 +76,6 @@ set path+=**
 let g:netrw_liststyle=3
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-"    GUI (Windows)
-" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-colorscheme default
-set guifont=Consolas:h10
-set backspace=2
-
-" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "     COLORS
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -160,16 +152,6 @@ nnoremap <C-\> 03x<Esc>
 " simple syntax highlight
 autocmd BufEnter *.jai :setlocal filetype=c
 
-"        *** SWIFT ***
-
-" simple syntax highlight
-autocmd BufEnter *.swift :setlocal filetype=c
-
-" The most important one
-autocmd BufEnter *.swift nnoremap :tamic<Return> AtranslatesAutoresizingMaskIntoConstraints = false
-
-
 "        *** HTML ***
 
 autocmd BufEnter *.html nnoremap :link<Return> A<a href="" target="_blank"></a><Esc>bblli
-
