@@ -112,6 +112,8 @@ highlight StatusLineNC ctermfg=Gray
 "     REMAPS
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+set tabstop=4
+
 " reasign leader key
 let mapleader = " "
 
