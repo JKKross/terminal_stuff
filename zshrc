@@ -2,6 +2,7 @@
 PS1=$'\e[32m\%n\e[0m\:\e[33m\%~\n\e[0m\𝄢 '
 
 export PATH=$HOME/.scripts/:$PATH
+export PATH=$HOME/.scripts/4coder/:$PATH
 export EDITOR=vim
 export TERMINAL=alacritty
 

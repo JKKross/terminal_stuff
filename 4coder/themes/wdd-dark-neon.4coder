@@ -1,0 +1,64 @@
+// *** CUSTOM DEFINITIONS ***
+
+red = 0xFFFF0000;
+
+dark_blue   = 0xFF000D20;
+bright_blue = 0xFF008EFF;
+light_blue  = 0xFF82CCEC;
+
+light_aqua  = 0xFFD9F3FF;
+
+bright_pink = 0xFFFF43DE;
+light_pink  = 0xFFFF9FD2;
+
+dark_violet = 0xFF1B001A;
+
+strawberry  = 0xFFFF0170;
+
+// *** PREDEFINED ***
+
+defcolor_back = dark_violet;
+defcolor_margin = light_blue;
+defcolor_margin_hover = bright_pink;
+defcolor_margin_active = defcolor_margin_hover;
+defcolor_list_item = {defcolor_margin, defcolor_back};
+defcolor_list_item_hover = {defcolor_margin_hover, defcolor_margin};
+defcolor_list_item_active = {defcolor_margin_active, defcolor_margin_active};
+defcolor_cursor = {strawberry, strawberry};
+defcolor_at_cursor = defcolor_back;
+defcolor_highlight_cursor_line = 0xFF121E12;
+defcolor_highlight = 0xFF703419;
+defcolor_mark = strawberry;
+defcolor_text_default = light_aqua;
+defcolor_at_highlight = 0xFFCDAA7D;
+defcolor_comment = defcolor_margin_hover;
+defcolor_comment_pop = {0xFF00A000, 0xFFA00000};
+defcolor_keyword = defcolor_margin;
+defcolor_str_constant = light_pink;
+defcolor_char_constant = defcolor_str_constant;
+defcolor_int_constant = bright_blue;
+defcolor_float_constant = defcolor_int_constant;
+defcolor_bool_constant = defcolor_int_constant;
+defcolor_include = defcolor_str_constant;
+defcolor_preproc = defcolor_text_default;
+defcolor_special_character = 0xFFFF0000;
+defcolor_ghost_character = 0xFF5B4D3C;
+
+defcolor_paste = bright_pink;
+
+defcolor_undo = red;
+
+defcolor_highlight_junk = 0xFF3A0000;
+defcolor_highlight_white = 0xFF003A3A;
+
+defcolor_bar = defcolor_margin;
+defcolor_bar_active = defcolor_bar;
+defcolor_base = 0xFF000000;
+defcolor_pop1 = 0xFF03CF0C;
+defcolor_pop2 = 0xFFFF0000;
+
+defcolor_back_cycle = {0x0CA00000, 0x0800A000, 0x080000A0, 0x08A0A000};
+defcolor_text_cycle = {0xFFA00000, 0xFF00A000, 0xFF0020B0, 0xFFA0A000};
+
+defcolor_line_numbers_back = 0xFF202020;
+defcolor_line_numbers_text = 0xFF484848;
