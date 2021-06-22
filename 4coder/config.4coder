@@ -29,11 +29,11 @@ enable_undo_fade_out = true;
 // the cursor and mark's roundness as a percentage of their width
 // (At 50 the left and right corners will be so round they form a semi-circle,
 //  hence 50 is the max)
-cursor_roundness = 45;
+cursor_roundness = 40;
 
 // mark_thickness is a pixel count value setting the
 // thickness of the mark wire box in original mode
-mark_thickness = 2;
+mark_thickness = 4;
 
 // lister_roundess is a value [0,50] setting the radius of
 // the lister items' roundness as a percentage of their height
@@ -47,7 +47,7 @@ enable_code_wrapping = true;
 
 // This only applies to code files in code-wrapping mode.
 // Plain text and code files without virtual-whitespace will not be effected.
-automatically_indent_text_on_save = true;
+automatically_indent_text_on_save = false;
 
 // When set to true, all unsaved changes will be saved on a build.
 automatically_save_changes_on_build = true;
@@ -65,7 +65,7 @@ default_theme_name = "wdd-dark-neon";
 
 // Font
 default_font_name = "Inconsolata-Regular.ttf";
-default_font_size = 14;
+default_font_size = 15;
 default_font_hinting = false;
 
 // aa modes:
@@ -84,4 +84,3 @@ default_compiler_bat = "cl";
 default_flags_bat = "-FC -GR- -EHa- -nologo -Zi";
 default_compiler_sh = "clang";
 default_flags_sh  = "-g";
-
