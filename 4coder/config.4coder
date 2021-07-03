@@ -33,14 +33,14 @@ cursor_roundness = 40;
 
 // mark_thickness is a pixel count value setting the
 // thickness of the mark wire box in original mode
-mark_thickness = 4;
+mark_thickness = 2;
 
 // lister_roundess is a value [0,50] setting the radius of
 // the lister items' roundness as a percentage of their height
 lister_roundness = 20;
 
 // Code Wrapping
-treat_as_code = ".c.h.jai.cpp.hpp.cc.cs.java.rs.glsl.m.mm.php.js.xml.html.css.htm.swift";
+treat_as_code = ".c.h.jai.cpp.hpp.cc.cs.java.rs.glsl.m.mm.php.js.xml.html.css.htm.swift.json.xaml";
 enable_virtual_whitespace = false;
 virtual_whitespace_regular_indent = 4;
 enable_code_wrapping = true;
