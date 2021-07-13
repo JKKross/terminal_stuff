@@ -79,9 +79,6 @@ let g:netrw_liststyle=3
 "     COLORS
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-" 'ctermfg' stands for 'color terminal foreground'
-" (There's also 'ctermbg' option)
-
 " These are syntax highlighting settings
 " (:help group-name for more info)
 highlight Comment      ctermfg=Green
@@ -95,9 +92,10 @@ highlight String       ctermfg=Yellow
 highlight Character    ctermfg=Yellow
 
 highlight Normal       ctermfg=Black
-highlight Search       ctermfg=Black ctermbg=Red
+highlight Search       ctermfg=White ctermbg=Red
+highlight Visual       ctermfg=White ctermbg=Gray
 
-highlight StatusLine   ctermfg=Blue
+highlight StatusLine   ctermfg=Cyan
 highlight StatusLineNC ctermfg=Gray
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
