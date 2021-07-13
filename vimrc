@@ -92,10 +92,10 @@ highlight String       ctermfg=Yellow
 highlight Character    ctermfg=Yellow
 
 highlight Normal       ctermfg=Black
-highlight Search       ctermfg=White ctermbg=Red
+highlight Search       ctermfg=White ctermbg=Magenta
 highlight Visual       ctermfg=White ctermbg=Gray
 
-highlight StatusLine   ctermfg=Cyan
+highlight StatusLine   ctermfg=Cyan ctermbg=White
 highlight StatusLineNC ctermfg=Gray
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
